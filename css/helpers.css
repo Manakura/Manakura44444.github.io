@@ -1,0 +1,25 @@
+.center, .center-column, .top, .right, .bottom, .left {
+    display: flex !important;
+    flex-direction: row !important;
+	justify-content: center !important;
+    align-items: center !important;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start !important; }
+.right  { justify-content: flex-end !important;   }
+.bottom { align-items:     flex-end !important;   }
+.left   { justify-content: flex-start !important; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
+	}
+}

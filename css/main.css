@@ -1,0 +1,79 @@
+#top-bg {
+    background: black url(/images/background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section2, #section4 {
+    background-color: #222222;
+
+}
+
+#section3 {
+    background-color: #3a3a3a;
+}
+
+.box {
+    box-shadow: 0 0 30px 5px rgba(white, white, white, 0.1) !important;
+}
+
+.big-text {
+    font-size: 16px !important;
+}
+
+.big-text-icon {
+    font-size: 50px !important;
+}
+
+.a {
+    text-decoration: none;
+    color: white !important;
+}
+
+:hover {
+    transition: all 0.5s;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.padding-top {
+    padding-top: 100px !important;
+}
+
+.padding-bottom {
+    padding-bottom: 40px !important;
+}
+
+.padding-right {
+    padding-right: 20px !important;
+}
+
+.footer {
+    background-color: #3a3a3a !important;
+    margin: 0 0 !important;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.padding-right {
+    padding-right: 20px !important;
+}
+/* Keep Div at top fixed to page */
+
+/* .hero-head {
+    width: 100%;
+    position: fixed;
+} */
+
+/* ---------------------------- */
